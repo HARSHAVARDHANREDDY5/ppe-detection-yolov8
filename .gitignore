@@ -1,0 +1,21 @@
+# Virtual environment
+venv/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Dataset (raw images & labels)
+data/raw/
+data/images/
+data/labels/
+
+# YOLO training outputs
+runs/
+
+# Model weights
+*.pt
+
+# OS files
+.DS_Store
+Thumbs.db
